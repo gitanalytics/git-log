@@ -20,12 +20,12 @@
       "phpunit/phpunit": "~4.1"
     },
     "autoload": {
-      "psr-0": {
-        "GitAnalytics\\GitLog": "src"
+      "psr-4": {
+        "": "src"
       }
     },
     "autoload-dev": {
-      "psr-0": {
+      "psr-4": {
         "Tests\\": "tests/"
       }
     }

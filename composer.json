@@ -1,0 +1,32 @@
+{
+    "name": "git-analytics/git-log",
+    "type": "library",
+    "description": "PHP library to parse git log as JSON and Array objects",
+    "keywords": ["git", "log", "analytics"],
+    "homepage": "https://github.com/git-analytics/git-log",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Diego Nobre",
+        "email": "dcnobre@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/process": "^3.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+      "psr-0": {
+        "GitAnalytics\\GitLog": "src/GitAnalytics/GitLog"
+      }
+    },
+    "autoload-dev": {
+      "psr-0": {
+        "Tests\\": "tests/"
+      }
+    }
+}

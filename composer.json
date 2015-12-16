@@ -11,7 +11,7 @@
         "email": "dcnobre@gmail.com"
       }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.5.9",
         "symfony/process": "^3.0"
@@ -21,7 +21,7 @@
     },
     "autoload": {
       "psr-0": {
-        "GitAnalytics\\GitLog": "src/GitAnalytics/GitLog"
+        "": "src/"
       }
     },
     "autoload-dev": {

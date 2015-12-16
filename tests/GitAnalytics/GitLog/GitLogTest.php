@@ -2,6 +2,8 @@
 
 namespace Tests\GitAnalytics\GitLog;
 
+use GitAnalytics\GitLog\GitLog;
+
 class GitLogTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetLog()
@@ -13,7 +15,7 @@ class GitLogTest extends \PHPUnit_Framework_TestCase {
             '--stat'
         );
 
-        $log = new \GitAnalytics\GitLog\GitLog($arguments);
+        $log = new GitLog($arguments);
 
         $this->assertNotEmpty($log->getLog(), 'Log is not empty');
     }
